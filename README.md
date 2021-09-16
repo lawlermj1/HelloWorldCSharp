@@ -40,7 +40,7 @@ Invoke-Expression $exp
 $scriptblock = {& .\HelloWorldCSharpMan.exe}
 Invoke-Command -scriptblock $scriptblock -computername "lawlermj1" 
 
--- old cmd shell - replaces & 
+-- old cmd shell - replaces  "&" 
 cmd /c .\HelloWorldCSharpMan.exe
 
 -- Start-Process  - getting stdout and stderr is a whole script - do later 
